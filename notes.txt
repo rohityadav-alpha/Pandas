@@ -1,0 +1,16 @@
+Pandas
+Category: Data analysis & manipulation library.
+
+Best For: Cleaning, transforming, and exploring datasets (CSV, Excel, SQL, JSON).
+
+Key Features:
+
+-Provides Series (1D) and DataFrame (2D tabular data).
+
+-Easy indexing, filtering, grouping, merging.
+
+-Commonly used for EDA (Exploratory Data Analysis).
+
+Difficulty: Beginner friendly.
+
+Use Case Example: Preparing raw sales data for ML models.
