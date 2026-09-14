@@ -32,3 +32,13 @@ dict1={"name":["rohit","ashish","vijay","shubham"],"age":[24,23,21,20],"marks":[
 var=pd.Series(dict1)
 print(var)
 
+print()
+
+# series with tuple
+tu=(3,2,5,"rohit")
+nt=pd.Series(tu)
+print(nt)
+print(nt[3])
+
+print()
+
