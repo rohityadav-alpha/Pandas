@@ -42,3 +42,7 @@ print(nt[3])
 
 print()
 
+# series with set
+s={2,5,4,3}
+s1=pd.Series(sorted(s))
+print(s1)
