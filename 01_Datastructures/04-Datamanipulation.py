@@ -21,3 +21,9 @@ ndata=[57,78,98,987,90]
 var.insert(4,"E",ndata)
 print(var)
 
+print()
+
+# another way to insert values
+var["F"]=var["B"]+var["C"]
+var["F"]=var["B"][:3]+var["C"][:3]
+print(var)
