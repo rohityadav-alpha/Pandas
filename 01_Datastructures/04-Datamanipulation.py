@@ -27,3 +27,12 @@ print()
 var["F"]=var["B"]+var["C"]
 var["F"]=var["B"][:3]+var["C"][:3]
 print(var)
+
+print()
+
+
+# Delete data from DataFrame using .pop() and del method
+var.pop("B")
+print(var)
+
+
