@@ -14,3 +14,10 @@ print()
 
 var.insert(3,"D",var["A"]+var["B"])
 print(var)
+
+print()
+
+ndata=[57,78,98,987,90]
+var.insert(4,"E",ndata)
+print(var)
+
