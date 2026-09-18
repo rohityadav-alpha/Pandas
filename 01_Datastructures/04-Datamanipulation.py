@@ -35,4 +35,7 @@ print()
 var.pop("B")
 print(var)
 
+print()
 
+del var["F"]
+print(var)
