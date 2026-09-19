@@ -31,3 +31,7 @@ print(file1)
 # if you want to set a specific name of a column or new column - using names parameter
 file1=pd.read_csv("D:\\LEARN_PYTHON\\Day-21_Pandas_lib\\basic-data.csv",names=["ID1","Name1","Age1","City1","email1"])
 print(file1)
+
+# if you want to set a specific row as header - using header parameter  and it can none also  
+file1=pd.read_csv("D:\\LEARN_PYTHON\\Day-21_Pandas_lib\\basic-data.csv",dtype={"ID":str,"Name":str,"Age":int,"City":str,"email":str})
+print(file1)
